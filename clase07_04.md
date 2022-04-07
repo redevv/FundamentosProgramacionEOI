@@ -152,7 +152,7 @@ Bautista Gabriel Day García
 github.com/bautiday/FundamentosProgramacionEOI
 ```
 
-## Explorar Git
+## Explorar Git:
 1. Descargar e Instalar
 2. Crear repositorio local (**SOLO PRIMERA VEZ**):
 
@@ -205,9 +205,6 @@ command (⌘) + mayúsculas (⇧) + signo punto (.)
 ````
 
 Establecemos conexión entre el repositorio local y el remoto:
-````
-Ir al GitHub y copiar la ruta de mi repositorio
-````
 
 ````
 git branch
@@ -242,19 +239,14 @@ git commit -m "Estableciendo primeros pasos"
  create mode 100755 img/img01.pages
  ````
 ````
-
 git status
 On branch master
 nothing to commit, working tree clean
  ````
  Copiamos enlace repositorio GitHub:
- 
+
  ![](img/img01.png)
  
- Token para autenticar repositorio: 
- ````
- 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 
- ````
  Enlazamos repositorio local con remoto:
  ````
 git remote add main https://github.com/redevv/FundamentosProgramacionEOI.git
