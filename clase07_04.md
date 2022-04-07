@@ -199,7 +199,7 @@ Creamos repositorio local:
 git init
 Reinitialized existing Git repository in /Users/davidrey/00-EOI/.git/
 ````
-Si no podemos ver los **archivos ocultos** en nuestra carpeta local le damos a la siguiente combinación de teclas:
+Si no podemos ver los **archivos ocultos** en nuestra carpeta local le damos a la siguiente combinación de teclas **(solo en macOS)**:
 ````
 command (⌘) + mayúsculas (⇧) + signo punto (.)
 ````
@@ -280,7 +280,57 @@ To https://github.com/redevv/FundamentosProgramacionEOI.git
  * [new branch]      master -> master
  ````
 
- 
+## Notas:
+
+Borrar la conexión al repositorio remoto si es necesario:
+
+```
+git remote rm main
+```
+
+Consultar qué repositorios remotos estan enlazados a nuestro repositorio local
+
+```
+git remote -v
+```
+
+Actualizamos el repositorio remoto (GitHub)
+
+```
+git push main
+```
+
+## Bucle:
+
+1 - Hacer las actualizaciones en los ficheros, imágenes, programas, carpetas y demás elementos de nuestro proyecto.
+
+2 - Informar a git de los cambios:
+
+```
+c:><carpeta del proyecto> git add .
+```
+
+3 - Actualizar nuestro repositorio LOCAL o Confirmación de los cambios.
+
+```
+c:><carpeta del proyecto> git commit -m "<TEXTO CON LA OBSERVACION DE LA CONFIRMACION>"
+```
+
+4 - Actualizamos el remoto (NO LO VEREMOS EN GITHUB)
+
+```
+c:><caperta del proyecto> git push main
+```
+
+5 - Revisar el status
+
+```
+c:><caperta del proyecto>git status
+```
+
+
+
+**Vuelta al punto 1**
 
 
 
