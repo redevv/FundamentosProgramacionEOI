@@ -319,13 +319,13 @@ c:><carpeta del proyecto> git commit -m "<TEXTO CON LA OBSERVACION DE LA CONFIRM
 4 - Actualizamos el remoto (NO LO VEREMOS EN GITHUB):
 
 ```
-c:><caperta del proyecto> git push main
+c:><carpeta del proyecto> git push main
 ```
 
 5 - Revisar el status:
 
 ```
-c:><caperta del proyecto>git status
+c:><carpeta del proyecto> git status
 ```
 
 
