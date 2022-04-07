@@ -249,7 +249,8 @@ nothing to commit, working tree clean
  ````
  Copiamos enlace repositorio GitHub:
  
-
+ ![](img/img01.png)
+ 
  Token para autenticar repositorio: 
  ````
  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 
