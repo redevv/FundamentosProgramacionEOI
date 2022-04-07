@@ -247,7 +247,8 @@ git status
 On branch master
 nothing to commit, working tree clean
  ````
- Copiamos
+ Copiamos enlace repositorio GitHub:
+ 
 
  Token para autenticar repositorio: 
  ````
