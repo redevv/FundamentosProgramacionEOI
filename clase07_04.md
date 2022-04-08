@@ -326,7 +326,11 @@ c:><carpeta del proyecto> git push main
 5 - Revisar el status:
 
 ```
+<<<<<<< HEAD
 c:><carpeta del proyecto>git status
+=======
+c:><carpeta del proyecto> git status
+>>>>>>> b9b4f31e8d2a70b17902acc798946ad396d36cf7
 ```
 
 
