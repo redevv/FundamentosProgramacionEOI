@@ -289,13 +289,13 @@ Borrar la conexión al repositorio remoto si es necesario:
 git remote rm main
 ```
 
-Consultar qué repositorios remotos estan enlazados a nuestro repositorio local
+Consultar qué repositorios remotos estan enlazados a nuestro repositorio local:
 
 ```
 git remote -v
 ```
 
-Actualizamos el repositorio remoto (GitHub)
+Actualizamos el repositorio remoto (GitHub):
 
 ```
 git push main
@@ -311,22 +311,22 @@ git push main
 c:><carpeta del proyecto> git add .
 ```
 
-3 - Actualizar nuestro repositorio LOCAL o Confirmación de los cambios.
+3 - Actualizar nuestro repositorio LOCAL o Confirmación de los cambios:
 
 ```
 c:><carpeta del proyecto> git commit -m "<TEXTO CON LA OBSERVACION DE LA CONFIRMACION>"
 ```
 
-4 - Actualizamos el remoto (NO LO VEREMOS EN GITHUB)
+4 - Actualizamos el remoto (NO LO VEREMOS EN GITHUB):
 
 ```
-c:><caperta del proyecto> git push main
+c:><carpeta del proyecto> git push main
 ```
 
-5 - Revisar el status
+5 - Revisar el status:
 
 ```
-c:><caperta del proyecto>git status
+c:><carpeta del proyecto>git status
 ```
 
 
