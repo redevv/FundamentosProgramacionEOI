@@ -8,79 +8,79 @@ Billy
 Billy
 10:08
 
-github.com/BillyClassTime/FundamentosProgramacionEOI
+https://github.com/BillyClassTime/FundamentosProgramacionEOI
 
 Lina María Vásquez Salazar
 Lina María Vásquez Salazar
 10:08
 
-github.com/Linamarv7/FundamentosProgramacionEOI
+https://github.com/Linamarv7/FundamentosProgramacionEOI
 
 David Rey de Viñas Velázquez
 David Rey de Viñas Velázquez
 10:08
 
-github.com/redevv/FundamentosProgramacionEOI
+https://github.com/redevv/FundamentosProgramacionEOI
 
 Iván Álamo Exposito
 Iván Álamo Exposito
 10:08
 
-github.com/Ivanfinal/FundamentosProgramacionEOI
+https://github.com/Ivanfinal/FundamentosProgramacionEOI
 
 Francisco Vida Vílchez
 Francisco Vida Vílchez
 10:08
 
-github.com/FranciscoVida/FundamentosProgramacionEOI
+https://github.com/FranciscoVida/FundamentosProgramacionEOI
 
 Mario Álvarez Gómez
 Mario Álvarez Gómez
 10:08
 
-github.com/Marioalvgmz/FundamentosProgramacionEOI
+https://github.com/Marioalvgmz/FundamentosProgramacionEOI
 
 Rafael Alejandro Ojeda Nicieza
 Rafael Alejandro Ojeda Nicieza
 10:08
 
-github.com/rojeda16/fundamentosprogramacionEOI
+https://github.com/rojeda16/fundamentosprogramacionEOI
 
 Cristina Silván Sadoc
 Cristina Silván Sadoc
 10:08
 
-github.com/CristinaSilvan/FundamentosProgramacionEOI
+https://github.com/CristinaSilvan/FundamentosProgramacionEOI
 
 Julia Pérez Mora
 Julia Pérez Mora
 10:08
 
-github.com/Juliafperez/FundamentosProgramacionEOI 
+https://github.com/Juliafperez/FundamentosProgramacionEOI 
 
 David González López
 David González López
 10:09
 
-github.com/davidgonzalezlopez96/fundamentos-EOI
+https://github.com/davidgl96/fundamentos-EOI
 
 Álvaro Morales Marquez
 Álvaro Morales Marquez
 10:09
 
-github.com/alvaromrls/FundamentosProgramacionEOI
+https://github.com/alvaromrls/FundamentosProgramacionEOI
 
 Samuel Tirao Martos
 Samuel Tirao Martos
 10:09
 
-github.com/TMSamuel/FundamentosProgramacionEOI
+https://github.com/TMSamuel/FundamentosProgramacionEOI
 
 Vanessa Machordom Torres
 Vanessa Machordom Torres
 10:09
 
-github.com/vmachord/FundamentosProgramacionEOI
+https://github.com/vmachord/FundamentosProgramacionEOI
 
 Miguel Villar Zamora
 Miguel Villar Zamora
@@ -92,56 +92,52 @@ AMAIA SANCHIS BALLESTER
 AMAIA SANCHIS BALLESTER
 10:09
 
-github.com/amaiasanchis/FundamentosProgramacionEOI
+https://github.com/amaiasanchis/FundamentosProgramacionEOI
 
 Juan Antonio Cejudo Algar
 Juan Antonio Cejudo Algar
 10:09
 
-github.com/jacs2501/Curso_cloud_computing
+https://github.com/jacs2501/Curso_cloud_computing
 
 Cynthia Martín Martínez
 Cynthia Martín Martínez
 10:09
 
-github.com/Cynthiamm13/fundamentos/tree/main
+https://github.com/Cynthiamm13/fundamentos/tree/main
 
 Diego Rodriguez Sanchez
 Diego Rodriguez Sanchez
 10:09
 
-github.com/dugalatortuga/FundamentosProgramacionEOI
+https://github.com/dugalatortuga/FundamentosProgramacionEOI
 
 PAULA CARRASCAL MARTINEZ
 PAULA CARRASCAL MARTINEZ
 10:09
 
-github.com/pcarrascal/FundamentosProgramacionEOI
+https://github.com/pcarrascal/FundamentosProgramacionEOI
 
 Antonio Daza Dueñas
 Antonio Daza Dueñas
 10:09
 
-github.com/DdDaza22/FundamentosProgramacionEOI
+https://github.com/DdDaza22/FundamentosProgramacionEOI
 
 Daniel López Doncel-Moriano
 Daniel López Doncel-Moriano
 10:09
 
-github.com/DlopezDoncelMoriano/Fundamentos-programaci-n-EOI
+https://github.com/DlopezDoncelMoriano/Fundamentos-programaci-n-EOI
 
 Iván Salas Carrascal
 Iván Salas Carrascal
 10:09
 
-github.com/salcarivan/salcarivan/new/main
+https://github.com/salcarivan/salcarivan/new/main
 
 Emiliano Julian Salvachua
 Emiliano Julian Salvachua
-10:10
-
-Fui al baño un segundo, donde se saca el enlace?
-
 10:10
 https://github.com/emiarg10/FundamentosProgramacionEOI
 
@@ -149,7 +145,12 @@ Bautista Gabriel Day García
 Bautista Gabriel Day García
 10:10
 
-github.com/bautiday/FundamentosProgramacionEOI
+https://github.com/bautiday/FundamentosProgramacionEOI
+
+Jesús José Corrales Guillén
+Jesús José Corrales Guillén
+
+https://github.com/r2dn3/FundamentosProgramacionEOI
 ```
 
 ## Explorar Git:
