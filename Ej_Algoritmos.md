@@ -42,7 +42,7 @@ Escribir: "El número es menor a 9"
 ```
 Algoritmo ParidadNumeros
 	Leer nro
-	Si (nro mod 2 // El resto de dividir nro en 2) = 0 entonces
+	Si (nro mod 2 // El resto de dividir nro entre 2) = 0 entonces
 		Escribir "es par"
 	Sino
 		Escribir "es impar"
@@ -50,13 +50,13 @@ Algoritmo ParidadNumeros
 FinAlgoritmo
 ```
 Prueba de escritorio:
-
+```
 mod = resto división
 
 nro: 7
 
 Escribir: "es impar"
-
+```
 
 ## 4.  ingresar dos números y devuelva el resultado de la suma entre ambos.
 
@@ -72,8 +72,9 @@ Algoritmo SumaDosNumeros
     Escribir "El resultado es:" Rta
 FinAlgoritmo
 ```
-Prueba de escritorio:
 
+Prueba de escritorio:
+```
 Num1: 3
 
 Num2: 4
@@ -81,8 +82,7 @@ Num2: 4
 Rta: 7
 
 El resultado es: 7
-
-
+```
 
 ## 5. Sumar todos los números pares entre 2 y 100.
 
@@ -99,13 +99,15 @@ Algoritmo SumaDePares
 	Escribir "la suma de los pares entre nro y 100 es " suma
 FinAlgoritmo
 ```
-Prueba de escritorio:
 
+Prueba de escritorio:
+```
 suma: 2
 
 nro: 3
 
 Volver a "Mientras"
+```
 
 ## 6. Ingresar un número y muestre todos los divisores del mismo.
 
@@ -129,7 +131,7 @@ Escribir:
 ```
 Ingrese Numero
 1 2 3
-````
+```
 Num: 6
 
 div: 2
@@ -150,7 +152,7 @@ Algoritmo aprueba_reprueba
         Si Prom>=4 Entonces
 		Escribir "Aprueba"
 	Sino
-		Escribir "Reprueba"
+		Escribir "Suspende"
 	Fin Si
 	Escribir Prom
 FinAlgoritmo
@@ -158,18 +160,19 @@ FinAlgoritmo
 
 Prueba de escritorio:
 ````
-Ingrese calificacion 1
+"Ingrese calificacion 1"
 7
-Ingrese calificacion 2
+"Ingrese calificacion 2"
 8
-Ingrese calificacion 3
+"Ingrese calificacion 3"
 10
-````
+
 "Aprueba"
 
-Prom (7+8+10/3): 8,3
+8,3 -> [Prom: (7+8+10)/3]
+````
 
-## 8. Crear un algoritmo que permita ingresar un nombre y una cantidad numérica para escribir este nombre tantas veces como su cantidad ingresada. 
+## 8. Crear un algoritmo que permita ingresar un nombre y una cantidad numérica para escribir este nombre tantas veces como su cantidad ingresada.
 
 ```
 Algoritmo Cantidad_nombre
@@ -177,14 +180,27 @@ Algoritmo Cantidad_nombre
 	Leer nombre
 	Escribir "Ingresar Cantidad"
 	Leer num
-	Mientras Num>0 Hacer
+	Mientras Num>0 Hacer // No sensible a May/Min
 		Escribir nombre
 	Num<-Num - 1
 	Fin Mientras
 FinAlgoritmo
 ```
 
-9. Sumar todos los números naturales comprendidos entre 1 y 50.
+Prueba de escritorio:
+````
+"Ingresar nombre"
+nombre<-"David"
+
+"Ingresar cantidad"
+N/num<-3,2,1,0
+
+David
+David
+David
+````
+
+## 9. Sumar todos los números naturales comprendidos entre 1 y 50.
 
 ```
 Algoritmo suma_numerosnaturales_1y50 
@@ -193,12 +209,23 @@ Algoritmo suma_numerosnaturales_1y50
 	Repetir
 	    Resul<-Resul+Num
 	    Num<-Num+1 	                           
-        Hasta Que Num>50
+        Hasta Que Num>5 // El valor real es 50
 	Escribir Resul
 Fin algoritmo
 ```
 
-10. Leer tres números; si el primero es negativo, debe imprimir la multiplicación de los tres y si no lo es, imprimirá la suma.
+Prueba de escritorio:
+````
+Num<-1
+Resul<-0
+
+2, 3, 4, 5, 6
+1, 3, 6, 10, 15
+
+15
+````
+
+## 10. Leer tres números; si el primero es negativo, debe imprimir la multiplicación de los tres y si no lo es, imprimirá la suma.
 
 ```
 Algoritmo tresnumeros
@@ -217,7 +244,20 @@ Algoritmo tresnumeros
 FinAlgoritmo
 ```
 
-11. Si un número ingresado es primo o no. (Un número es primo si es divisible únicamente por 1 y por sí mismo).
+Prueba de escritorio:
+````
+"Ingrese numero 1"
+Num1<-2
+"Ingrese numero 2"
+Num2<-3
+"Ingrese numero 3"
+Num3<-4
+
+Resul<-9
+9
+````
+
+## 11. Si un número ingresado es primo o no. (Un número es primo si es divisible únicamente por 1 y por sí mismo).
 
 ```
 Algoritmo NumerosPrimos
@@ -243,7 +283,17 @@ Algoritmo NumerosPrimos
 FinAlgoritmo
 ```
 
-12 . Sumar los dígitos de un número ingresado. Ejemplo: Si se ingresa 123, debería devolver 6.
+Prueba de escritorio:
+````
+"Ingrese un numero: "
+nro<-5
+div<-2, 3, 4, 5
+band<-Verdadero
+
+"Es primo"
+````
+
+## 12. Sumar los dígitos de un número ingresado. Ejemplo: Si se ingresa 123, debería devolver 6.
 
 ```
 Algoritmo SumaDigitos
@@ -258,7 +308,13 @@ Algoritmo SumaDigitos
 FinAlgoritmo
 ```
 
-13. Ejercicios Propuestos
+Prueba de escritorio:
+````
+"Ingrese un nro: "
+````
+
+
+## 13. Ejercicios Propuestos
     1. Calcular y mostrar el cuadrado de los números del 1 a 30.
     2. Números primos
     3. Construir un avión de papel
