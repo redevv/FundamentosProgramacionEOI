@@ -159,11 +159,13 @@ https://github.com/r2dn3/FundamentosProgramacionEOI
 
 Abrimos Terminal y creamos carpeta:
 ```
-md 00-EOI --> Se crea carpeta 00-EOI
+md (mkdir en macOS) 00-EOI --> Se crea carpeta 00-EOI
 
 cd --> Se cambia carpeta
 rd --> Se borra carpeta
 cls --> Limpiar ventana de Terminal
+
+mv --> mover archivos
 ```
 Comprobar que Git está instalado:
 ````
@@ -266,7 +268,7 @@ and then push using the remote name
 
 git push main
 Username for 'https://github.com': redevv
-Password for 'https://redevv@github.com':
+Password for 'https://redevv@github.com': (copiar código token)
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 8 threads

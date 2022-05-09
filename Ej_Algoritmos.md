@@ -302,7 +302,7 @@ Algoritmo SumaDigitos
 	resul <- 0
 	Mientras nro <> 0 Hacer
 		resul <- resul + nro MOD 10
-		nro <- trunc(nro/10)
+		nro <- trunc(nro/10) // En este caso, trunc se refiere a coger solo la parte entera del resultado de la división (sin resto)
 	FinMientras
 	Escribir "El resultado es: " resul
 FinAlgoritmo
@@ -310,18 +310,55 @@ FinAlgoritmo
 
 Prueba de escritorio:
 ````
-"Ingrese un nro: "
+"Ingrese un nro: " // Coger prueba de escritorio de GitHub de Billy (22/04)
+
 ````
 
-
 ## 13. Ejercicios Propuestos
-    1. Calcular y mostrar el cuadrado de los números del 1 a 30.
-    2. Números primos
-    3. Construir un avión de papel
-    4. Realizar las cuatro operaciones básicas (Suma, Resta, Multiplicación, División)
-    5. Volumen y Area de un Cilindro
-    6. Pedir un libro en una biblioteca
-    7. Encontrar el mayor número de tres números
-    8. Factorial de cualquier número
-    9. Encontrar si un numero en mayor o menor a un número dado.
-    10. Adivinar una palabra.
+1. Calcular y mostrar el cuadrado de los números del 1 a 30.
+2. Números primos
+3. Construir un avión de papel
+4. Realizar las cuatro operaciones básicas (Suma, Resta, Multiplicación, División)
+
+```
+    Algoritmo Calculadora
+        Escribir "Inserte operacion: "
+        Leer Num1
+        Leer Op
+        Leer Num2
+
+        Si Op es igual '+' Entonces
+            Escribir Num1 + Num2
+        Otro si Op es igual '-'
+            Escribir Num1 - Num2
+        Otro si Op es igual '*'
+            Escribir Num1 * Num2
+        Sino
+            Escribir Num1 / Num2
+        FinSi
+    FinAlgoritmo
+```
+
+5. Volumen y Area de un Cilindro
+
+````
+Algoritmo Cilindro
+    pi<- 3.14
+    Escribir "Ingrese el radio del cilindro"
+    Leer r
+    Escribir "Ingrese la altura del cilindro"
+    Leer h
+
+    area <- 2*(pi* r * r) + 2*(pi * r * h)
+    volumen <-pi * r *r *h
+
+    Escribir "El area del cilindro es:" + area
+    Escribir "El volumen del cilindro es:" + volumen
+FinAlgoritmo
+````
+
+6. Pedir un libro en una biblioteca
+7. Encontrar el mayor número de tres números
+8. Factorial de cualquier número
+9. Encontrar si un numero en mayor o menor a un número dado.
+10. Adivinar una palabra.
